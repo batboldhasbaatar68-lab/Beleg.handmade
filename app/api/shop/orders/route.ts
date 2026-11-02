@@ -1,0 +1,4 @@
+import { resolveActor,guard,gateway,response,failure } from '../../../../lib/beleg-server';
+export const dynamic='force-dynamic';
+export async function GET(req:Request){try{await guard(req);return response({orders:await gateway('orders',await resolveActor(req))});}catch(e){return failure(e);}}
+export async function PATCH(req:Request){try{await guard(req);const d=await req.json() as any;if(!/^[0-9a-f-]{36}$/.test(d.id))throw Error('ORDER_NOT_FOUND');if(!['approve','revoke'].includes(d.action))throw Error('FORBIDDEN');if(d.action==='revoke'){const o=await gateway('order',await resolveActor(req),{id:d.id});const {bucket}=await import('../../../../lib/beleg-server');for(const k of new Set([o.audio_key,o.source_key,o.receipt_key,o.photo_key].filter(Boolean)))await bucket().delete(k as string);}return response({order:await gateway(d.action,await resolveActor(req),{id:d.id})});}catch(e){return failure(e);}}

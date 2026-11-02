@@ -1,0 +1,8 @@
+const SUPABASE_ORIGIN='https://iqwklalhyayetrlujghi.supabase.co';
+const KEY='sb_publishable_0cAStscHQGt4ZKVGJ2uJwg_3_-Uqj_M';
+export const ADMIN_UID='4a03f88c-8d48-4f0f-b878-2c47d3ad94b8';
+const memo=new WeakMap<Request,Promise<boolean>>();
+export function cookie(req:Request,name:string){return req.headers.get('cookie')?.split(';').map(s=>s.trim()).find(s=>s.startsWith(name+'='))?.slice(name.length+1)||'';}
+export async function authFetch(path:string,body?:unknown,token?:string){return fetch(SUPABASE_ORIGIN+'/auth/v1/'+path,{method:body?'POST':'GET',headers:{apikey:KEY,...(token?{Authorization:'Bearer '+token}:{}),...(body?{'Content-Type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{}),signal:AbortSignal.timeout(15000)});}
+export function supabaseAdmin(req:Request){let p=memo.get(req);if(!p){p=(async()=>{const token=cookie(req,'beleg_admin_access');if(!token)return false;try{const r=await authFetch('user',undefined,token);if(!r.ok)return false;const u:any=await r.json();return u.id===ADMIN_UID;}catch{return false;}})();memo.set(req,p);}return p;}
+export function authCookies(res:Response,req:Request,data:any){res.headers.append('Set-Cookie','beleg_admin_refresh=; Path=/api/shop/auth; HttpOnly; SameSite=Strict; Max-Age=0');const secure=new URL(req.url).protocol==='https:'?'; Secure':'';res.headers.append('Set-Cookie',`beleg_admin_access=${data.access_token}; Path=/; HttpOnly; SameSite=Strict; Max-Age=${Math.min(data.expires_in||3600,3600)}${secure}`);res.headers.append('Set-Cookie',`beleg_admin_refresh=${data.refresh_token}; Path=/; HttpOnly; SameSite=Strict; Max-Age=2592000${secure}`);}

@@ -1,11 +1,7 @@
 # БЭЛЭГ Handmade
 
-Existing ZIP project for Netlify. Production publication and mobile UI tests are pending.
+Existing shop prepared for Netlify. Build: `node node_modules/next/dist/bin/next build --webpack`; publish `.next`; Node 22.
 
-Build: `node node_modules/next/dist/bin/next build --webpack`
-Publish directory: `.next`
-Node: 22
+Server-only secrets: BELEG_GATEWAY_KEY and SUPABASE_SERVICE_ROLE_KEY. Never commit their values.
 
-Set BELEG_GATEWAY_KEY and SUPABASE_SERVICE_ROLE_KEY as secret server environment variables in Netlify. Never commit them. Supabase project: iqwklalhyayetrlujghi. Existing database migrations have already been applied; do not rerun setup.sql.
-
-Verified 2026-11-03: Next.js production build and TypeScript passed. Fourteen database checks passed in a rolled-back transaction, including shipping fees and authorization. Product media, Storage configuration, owner login, and complete mobile checkout still require verification.
+AI sample photos are labelled and displayed as a non-purchasable catalogue until the owner confirms real product media. QR gift checkout remains available. AI audio is fulfilled by the owner; automatic generation is not connected.

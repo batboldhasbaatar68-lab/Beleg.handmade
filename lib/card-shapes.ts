@@ -1,0 +1,3 @@
+export const cardShapes=[{id:'portrait',name:'Классик босоо',width:1200,height:1800},{id:'square',name:'Дөрвөлжин',width:1500,height:1500},{id:'landscape',name:'Хэвтээ',width:1800,height:1200},{id:'arch',name:'Нуман орой',width:1200,height:1800},{id:'circle',name:'Дугуй',width:1600,height:1600},{id:'heart',name:'Зүрхэн',width:1800,height:1700},{id:'bookmark',name:'Номын хавчуурга',width:800,height:2000},{id:'tag',name:'Бэлгийн зүүлт',width:1000,height:1600}] as const;
+export type CardShape=typeof cardShapes[number]['id'];
+export function cardSize(id?:string){return cardShapes.find(s=>s.id===id)||cardShapes[0];}

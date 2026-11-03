@@ -1,0 +1,26 @@
+[
+  {
+    "source": "BELEG-Handmade-NEGDSEN-NEG-DELGuUR(1).zip",
+    "entry": "BELEG-Handmade/backup/BELEG-before-print-source.zip",
+    "sha256": "7520d01c9b0ea4d3ac1aa7b9dd9e8ffae6bdbb1d6d482a8a44cdd34cf223a784",
+    "file_count": 66
+  },
+  {
+    "source": "BELEG-Handmade-NEGDSEN-NEG-DELGuUR(1).zip",
+    "entry": "BELEG-Handmade/backup/BELEG-before-photo-source.zip",
+    "sha256": "c95fc8d4dea1eb2fdd49e386a1a0b2cfbf81def87efc679e97acbb7e4087d873",
+    "file_count": 60
+  },
+  {
+    "source": "BELEG-Handmade-NEGDSEN-NEG-DELGuUR(1).zip",
+    "entry": "BELEG-Handmade/backup/BELEG-before-design.zip",
+    "sha256": "7c301b2b166d003dd5103935dafe2d848e6cc3ac4698d9da6f1917411c2181b3",
+    "file_count": 90
+  },
+  {
+    "source": "BELEG-Handmade-NEGDSEN-NEG-DELGuUR(1).zip",
+    "entry": "BELEG-Handmade/backup/BELEG-before-bundles.zip",
+    "sha256": "1e46fcafa64ebc93f4ede6aa86c72c9485c82d24dd9e7ee4ec9cebb81e7c61ea",
+    "file_count": 113
+  }
+]

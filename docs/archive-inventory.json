@@ -1,0 +1,1462 @@
+[
+  {
+    "sha256": "bcd832cacc73bf5377f4abfa1118c5623ec71bc75de3bdeee7bf9b61b64576b4",
+    "archives": [
+      "beleg-handmade-integrated-v5.zip"
+    ],
+    "files": 14,
+    "relevant": [
+      "README.md"
+    ],
+    "feature_evidence": {
+      "chocolate": [
+        "admin.html",
+        "shop.js",
+        "index.html"
+      ],
+      "bundles": [
+        "admin.html",
+        "README.md",
+        "netlify__functions__create-order.js",
+        "shop.js",
+        "index.html"
+      ],
+      "admin": [
+        "admin.html",
+        "README.md",
+        "index.html",
+        "database-schema-v5.sql"
+      ],
+      "audio": [
+        "README.md",
+        "netlify__functions__create-order.js",
+        "netlify__functions__get-audio-url.js",
+        "netlify__functions__create-qr-token.js",
+        "player.html"
+      ]
+    }
+  },
+  {
+    "sha256": "bc863e4bb4a93a2e7bffbdb7c787b3168e6f0f514628b37fd7148664c617d02e",
+    "archives": [
+      "BELEG_Handmade_Orders_PWA.zip"
+    ],
+    "files": 4,
+    "relevant": [
+      "README.txt"
+    ],
+    "feature_evidence": {
+      "PWA": [
+        "sw.js",
+        "index.html"
+      ],
+      "bundles": [
+        "README.txt",
+        "index.html"
+      ],
+      "chocolate": [
+        "index.html"
+      ]
+    }
+  },
+  {
+    "sha256": "91d5c39adad9d83944b6e85b45ca97297c8125eb8effd7ea85f617fabb4f9bbc",
+    "archives": [
+      "BELEG-Handmade-NEGDSEN-NEG-DELGuUR(1).zip",
+      "BELEG-Handmade-NEGDSEN-NEG-DELGuUR.zip",
+      "BELEG-Handmade-NEGDSEN-NEG-DELGuUR(2).zip"
+    ],
+    "files": 204,
+    "relevant": [
+      "BELEG-Handmade/README-START-HERE-MN.md",
+      "BELEG-Handmade/catalog.json",
+      "BELEG-Handmade/BUNDLES-CHOCOLATE.md",
+      "BELEG-Handmade/product.html",
+      "BELEG-Handmade/CANDLE-CATALOG-NOTES-MN.txt",
+      "BELEG-Handmade/backup/BELEG-before-bundles.zip",
+      "BELEG-Handmade/design/catalog-prompts.json",
+      "BELEG-Handmade/public/catalog.json",
+      "BELEG-Handmade/public/product.html",
+      "BELEG-Handmade/public/assets/catalog/pexels-4041326.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-heart.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-custom.jpg",
+      "BELEG-Handmade/public/assets/catalog/envelope-set.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-name.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-bouquet.jpg",
+      "BELEG-Handmade/public/assets/catalog/couples-set.jpg",
+      "BELEG-Handmade/public/assets/catalog/romantic-set.jpg",
+      "BELEG-Handmade/public/assets/catalog/wine-set.jpg",
+      "BELEG-Handmade/public/assets/catalog/photo-box.jpg",
+      "BELEG-Handmade/public/assets/catalog/letter-box.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-box.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-flower.jpg",
+      "BELEG-Handmade/netlify/database/migrations/20261101180000_seed_catalog.sql",
+      "BELEG-Handmade/netlify/database/migrations/20261101230000_chocolate_bundles.sql",
+      "BELEG-Handmade/netlify/database/migrations/20261101200000_catalog_examples.sql",
+      "BELEG-Handmade/assets/catalog/pexels-4041326.jpg",
+      "BELEG-Handmade/assets/catalog/choc-heart.jpg",
+      "BELEG-Handmade/assets/catalog/choc-custom.jpg",
+      "BELEG-Handmade/assets/catalog/envelope-set.jpg",
+      "BELEG-Handmade/assets/catalog/choc-name.jpg",
+      "BELEG-Handmade/assets/catalog/choc-bouquet.jpg",
+      "BELEG-Handmade/assets/catalog/couples-set.jpg",
+      "BELEG-Handmade/assets/catalog/romantic-set.jpg",
+      "BELEG-Handmade/assets/catalog/wine-set.jpg",
+      "BELEG-Handmade/assets/catalog/photo-box.jpg",
+      "BELEG-Handmade/assets/catalog/letter-box.jpg",
+      "BELEG-Handmade/assets/catalog/choc-box.jpg",
+      "BELEG-Handmade/assets/catalog/choc-flower.jpg"
+    ],
+    "feature_evidence": {
+      "print": [
+        "BELEG-Handmade__package.json",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__admin-print.js",
+        "BELEG-Handmade__admin-print.js"
+      ],
+      "chocolate": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__netlify__database__migrations__20261102000000_photo_examples.sql",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__NEGTGESEN-TAILAN-MN.md"
+      ],
+      "bundles": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__netlify__database__migrations__20261102000000_photo_examples.sql",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql"
+      ],
+      "admin": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__public__admin-print.js",
+        "BELEG-Handmade__admin-print.js",
+        "BELEG-Handmade__admin-login.html"
+      ],
+      "audio": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__public__admin-print.js",
+        "BELEG-Handmade__admin-print.js"
+      ],
+      "PWA": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__public__gifts.html",
+        "BELEG-Handmade__public__shop.js"
+      ],
+      "feedback": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__public__gifts.html",
+        "BELEG-Handmade__PRINT-PREVIEW.html"
+      ],
+      "photo-gifts": [
+        "BELEG-Handmade__netlify__database__migrations__20261102000000_photo_examples.sql",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__public__categories.json",
+        "BELEG-Handmade__public__index.html"
+      ]
+    }
+  },
+  {
+    "sha256": "034ae71ba39054552211886f113bf8cea7a5626e891bf530db117dc17912a0a9",
+    "archives": [
+      "BELEG_Handmade_Orders_Admin_TEST_READY.zip"
+    ],
+    "files": 28,
+    "relevant": [
+      "README.txt"
+    ],
+    "feature_evidence": {
+      "bundles": [
+        "public__admin.js",
+        "public__index.html",
+        "public__shop.js",
+        "public__admin.html",
+        "README.txt"
+      ],
+      "admin": [
+        "public__admin.js",
+        "public__index.html",
+        "netlify__functions__admin-login.js",
+        "public__admin.html",
+        "README.txt"
+      ],
+      "PWA": [
+        "public__index.html",
+        "public__shop.js"
+      ],
+      "feedback": [
+        "public__index.html",
+        "public__shop.js"
+      ],
+      "print": [
+        "public__shop.js"
+      ]
+    }
+  },
+  {
+    "sha256": "6369c28a892a80384a77c432e130fdefb2b18a6d3037e1eafc74eada651e294f",
+    "archives": [
+      "BELEG-Handmade-GitHub-files(1).zip",
+      "BELEG-Handmade-GitHub-files.zip"
+    ],
+    "files": 159,
+    "relevant": [
+      "README.md"
+    ],
+    "feature_evidence": {
+      "admin": [
+        "docs__access-review.md",
+        "docs__archive-audit.json",
+        "database__final-repair.sql",
+        "docs__http-test-results.json",
+        "database__setup.sql"
+      ],
+      "chocolate": [
+        "docs__archive-audit.json",
+        "docs__FINAL-REPAIR-REPORT-MN.md"
+      ],
+      "print": [
+        "docs__archive-audit.json",
+        "package.json",
+        "database__setup.sql",
+        "docs__ADMIN_GUIDE_MN.md"
+      ],
+      "audio": [
+        "database__final-repair.sql",
+        "docs__http-test-results.json",
+        "docs__FACEBOOK_CONTENT_MN.md",
+        "database__setup.sql",
+        "database__auth-access.sql"
+      ],
+      "bundles": [
+        "docs__FACEBOOK_CONTENT_MN.md",
+        "database__setup.sql",
+        "tsconfig.json",
+        "docs__AI_AND_QPAY_RESEARCH.md",
+        "docs__ADMIN_GUIDE_MN.md"
+      ],
+      "photo-gifts": [
+        "docs__ADMIN_GUIDE_MN.md",
+        "docs__FINAL-REPAIR-REPORT-MN.md"
+      ]
+    }
+  },
+  {
+    "sha256": "9fe5c222a433384c9b277cc56b8ba426035f88cf0fd2707eba73a6da0a578ab1",
+    "archives": [
+      "BELEG-Handmade-print-gifts.zip",
+      "BELEG-Handmade-print-gifts(1).zip"
+    ],
+    "files": 203,
+    "relevant": [
+      "BELEG-Handmade/BUNDLES-CHOCOLATE.md",
+      "BELEG-Handmade/CANDLE-CATALOG-NOTES-MN.txt",
+      "BELEG-Handmade/README-START-HERE-MN.md",
+      "BELEG-Handmade/assets/catalog/choc-bouquet.jpg",
+      "BELEG-Handmade/assets/catalog/choc-box.jpg",
+      "BELEG-Handmade/assets/catalog/choc-custom.jpg",
+      "BELEG-Handmade/assets/catalog/choc-flower.jpg",
+      "BELEG-Handmade/assets/catalog/choc-heart.jpg",
+      "BELEG-Handmade/assets/catalog/choc-name.jpg",
+      "BELEG-Handmade/assets/catalog/couples-set.jpg",
+      "BELEG-Handmade/assets/catalog/envelope-set.jpg",
+      "BELEG-Handmade/assets/catalog/letter-box.jpg",
+      "BELEG-Handmade/assets/catalog/pexels-4041326.jpg",
+      "BELEG-Handmade/assets/catalog/photo-box.jpg",
+      "BELEG-Handmade/assets/catalog/romantic-set.jpg",
+      "BELEG-Handmade/assets/catalog/wine-set.jpg",
+      "BELEG-Handmade/backup/BELEG-before-bundles.zip",
+      "BELEG-Handmade/catalog.json",
+      "BELEG-Handmade/design/catalog-prompts.json",
+      "BELEG-Handmade/netlify/database/migrations/20261101180000_seed_catalog.sql",
+      "BELEG-Handmade/netlify/database/migrations/20261101200000_catalog_examples.sql",
+      "BELEG-Handmade/netlify/database/migrations/20261101230000_chocolate_bundles.sql",
+      "BELEG-Handmade/product.html",
+      "BELEG-Handmade/public/assets/catalog/choc-bouquet.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-box.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-custom.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-flower.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-heart.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-name.jpg",
+      "BELEG-Handmade/public/assets/catalog/couples-set.jpg",
+      "BELEG-Handmade/public/assets/catalog/envelope-set.jpg",
+      "BELEG-Handmade/public/assets/catalog/letter-box.jpg",
+      "BELEG-Handmade/public/assets/catalog/pexels-4041326.jpg",
+      "BELEG-Handmade/public/assets/catalog/photo-box.jpg",
+      "BELEG-Handmade/public/assets/catalog/romantic-set.jpg",
+      "BELEG-Handmade/public/assets/catalog/wine-set.jpg",
+      "BELEG-Handmade/public/catalog.json",
+      "BELEG-Handmade/public/product.html"
+    ],
+    "feature_evidence": {
+      "print": [
+        "BELEG-Handmade__package.json",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__admin-print.js",
+        "BELEG-Handmade__admin-print.js"
+      ],
+      "chocolate": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__netlify__database__migrations__20261102000000_photo_examples.sql",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__categories.json"
+      ],
+      "bundles": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__netlify__database__migrations__20261102000000_photo_examples.sql",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql"
+      ],
+      "admin": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__public__admin-print.js",
+        "BELEG-Handmade__admin-print.js",
+        "BELEG-Handmade__admin-login.html"
+      ],
+      "audio": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__public__admin-print.js",
+        "BELEG-Handmade__admin-print.js"
+      ],
+      "PWA": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__public__gifts.html",
+        "BELEG-Handmade__public__shop.js"
+      ],
+      "feedback": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__public__gifts.html",
+        "BELEG-Handmade__PRINT-PREVIEW.html"
+      ],
+      "photo-gifts": [
+        "BELEG-Handmade__netlify__database__migrations__20261102000000_photo_examples.sql",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__public__categories.json",
+        "BELEG-Handmade__public__index.html"
+      ]
+    }
+  },
+  {
+    "sha256": "0d446154d4cee40113384da36e056d8d454912b84c849aa752f1b8e5904591cd",
+    "archives": [
+      "BELEG-Handmade-improved-source.zip"
+    ],
+    "files": 69,
+    "relevant": [
+      "netlify/database/migrations/20261101180000_seed_catalog.sql",
+      "README-START-HERE-MN.md"
+    ],
+    "feature_evidence": {
+      "bundles": [
+        "public__admin.js",
+        "admin.html",
+        "public__index.html",
+        "netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "public__shop.js"
+      ],
+      "admin": [
+        "public__admin.js",
+        "admin.html",
+        "public__index.html",
+        "public__shop.js",
+        "OWNER-SETUP.md"
+      ],
+      "photo-gifts": [
+        "public__index.html",
+        "netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "OWNER-SETUP.md",
+        "index.html"
+      ],
+      "audio": [
+        "public__index.html",
+        "netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "public__shop.js",
+        "OWNER-SETUP.md",
+        "shop.js"
+      ],
+      "PWA": [
+        "public__index.html",
+        "public__shop.js",
+        "shop.js",
+        "index.html"
+      ],
+      "feedback": [
+        "public__index.html",
+        "public__shop.js",
+        "shop.js",
+        "index.html"
+      ],
+      "print": [
+        "public__shop.js",
+        "shop.js"
+      ]
+    }
+  },
+  {
+    "sha256": "ff66d60d1b17c277f9422501c5ed7061f3199ef81e711480be713358977ac2d2",
+    "archives": [
+      "BELEG-Handmade-admin-test-ready.zip"
+    ],
+    "files": 79,
+    "relevant": [
+      "beleg_work/netlify/database/migrations/20261101180000_seed_catalog.sql",
+      "beleg_work/CANDLE-CATALOG-NOTES-MN.txt",
+      "beleg_work/README-START-HERE-MN.md"
+    ],
+    "feature_evidence": {
+      "bundles": [
+        "beleg_work__admin.html",
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__public__admin-local.html",
+        "beleg_work__CANDLE-CATALOG-NOTES-MN.txt"
+      ],
+      "admin": [
+        "beleg_work__admin.html",
+        "beleg_work__ADMIN-START-HERE-MN.txt",
+        "beleg_work__public__index.html",
+        "beleg_work__public__admin-local.html",
+        "beleg_work__OWNER-SETUP.md"
+      ],
+      "photo-gifts": [
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__index.html"
+      ],
+      "audio": [
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html"
+      ],
+      "PWA": [
+        "beleg_work__public__index.html",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html",
+        "beleg_work__shop.js"
+      ],
+      "feedback": [
+        "beleg_work__public__index.html",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html",
+        "beleg_work__shop.js"
+      ],
+      "print": [
+        "beleg_work__public__shop.js",
+        "beleg_work__shop.js"
+      ]
+    }
+  },
+  {
+    "sha256": "c6c3639510244f268b560872e54f7f8a95b71af05f1ef6e7e031edeabf8e7bb4",
+    "archives": [
+      "beleg-handmade-integrated(1).zip"
+    ],
+    "files": 7,
+    "relevant": [
+      "README.md"
+    ],
+    "feature_evidence": {
+      "admin": [
+        "admin.html",
+        "README.md",
+        "database-schema.sql",
+        "index.html"
+      ],
+      "chocolate": [
+        "README.md",
+        "database-schema.sql",
+        "shop.js",
+        "index.html"
+      ],
+      "bundles": [
+        "README.md",
+        "database-schema.sql",
+        "shop.js",
+        "index.html"
+      ],
+      "audio": [
+        "database-schema.sql",
+        "index.html"
+      ],
+      "print": [
+        "database-schema.sql"
+      ]
+    }
+  },
+  {
+    "sha256": "04e77a4af9a6008dccbefe7526a1b23f06283a9d1c5eafc7dc60bfcbbbb23205",
+    "archives": [
+      "BELEG-Handmade-candles-updated(1).zip",
+      "BELEG-Handmade-candles-updated.zip"
+    ],
+    "files": 60,
+    "relevant": [
+      "beleg_work/CANDLE-CATALOG-NOTES-MN.txt",
+      "beleg_work/README-START-HERE-MN.md",
+      "beleg_work/netlify/database/migrations/20261101180000_seed_catalog.sql"
+    ],
+    "feature_evidence": {
+      "bundles": [
+        "beleg_work__admin.html",
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__CANDLE-CATALOG-NOTES-MN.txt",
+        "beleg_work__OWNER-SETUP.md"
+      ],
+      "admin": [
+        "beleg_work__admin.html",
+        "beleg_work__public__index.html",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html"
+      ],
+      "photo-gifts": [
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__index.html"
+      ],
+      "audio": [
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html"
+      ],
+      "PWA": [
+        "beleg_work__public__index.html",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html",
+        "beleg_work__shop.js"
+      ],
+      "feedback": [
+        "beleg_work__public__index.html",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html",
+        "beleg_work__shop.js"
+      ],
+      "print": [
+        "beleg_work__public__shop.js",
+        "beleg_work__shop.js"
+      ]
+    }
+  },
+  {
+    "sha256": "b0e69aff4d1fde3ed39146cfae5f476aa737a7606c4dc1dff636fd475a2f773f",
+    "archives": [
+      "BELEG_Handmade_website.zip"
+    ],
+    "files": 3,
+    "relevant": [
+      "README.txt"
+    ],
+    "feature_evidence": {}
+  },
+  {
+    "sha256": "0a362f72cf672c43318a416d0c862fd57d93654ed277bd8fad5c00840e35a867",
+    "archives": [
+      "BELEG-Handmade-photo-catalog (1).zip",
+      "BELEG-Handmade-photo-catalog (2).zip"
+    ],
+    "files": 170,
+    "relevant": [
+      "BELEG-Handmade/BUNDLES-CHOCOLATE.md",
+      "BELEG-Handmade/CANDLE-CATALOG-NOTES-MN.txt",
+      "BELEG-Handmade/README-START-HERE-MN.md",
+      "BELEG-Handmade/assets/catalog/choc-bouquet.jpg",
+      "BELEG-Handmade/assets/catalog/choc-box.jpg",
+      "BELEG-Handmade/assets/catalog/choc-custom.jpg",
+      "BELEG-Handmade/assets/catalog/choc-flower.jpg",
+      "BELEG-Handmade/assets/catalog/choc-heart.jpg",
+      "BELEG-Handmade/assets/catalog/choc-name.jpg",
+      "BELEG-Handmade/assets/catalog/couples-set.jpg",
+      "BELEG-Handmade/assets/catalog/envelope-set.jpg",
+      "BELEG-Handmade/assets/catalog/letter-box.jpg",
+      "BELEG-Handmade/assets/catalog/pexels-4041326.jpg",
+      "BELEG-Handmade/assets/catalog/photo-box.jpg",
+      "BELEG-Handmade/assets/catalog/romantic-set.jpg",
+      "BELEG-Handmade/assets/catalog/wine-set.jpg",
+      "BELEG-Handmade/backup/BELEG-before-bundles.zip",
+      "BELEG-Handmade/catalog.json",
+      "BELEG-Handmade/design/catalog-prompts.json",
+      "BELEG-Handmade/netlify/database/migrations/20261101180000_seed_catalog.sql",
+      "BELEG-Handmade/netlify/database/migrations/20261101200000_catalog_examples.sql",
+      "BELEG-Handmade/netlify/database/migrations/20261101230000_chocolate_bundles.sql",
+      "BELEG-Handmade/product.html",
+      "BELEG-Handmade/public/assets/catalog/choc-bouquet.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-box.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-custom.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-flower.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-heart.jpg",
+      "BELEG-Handmade/public/assets/catalog/choc-name.jpg",
+      "BELEG-Handmade/public/assets/catalog/couples-set.jpg",
+      "BELEG-Handmade/public/assets/catalog/envelope-set.jpg",
+      "BELEG-Handmade/public/assets/catalog/letter-box.jpg",
+      "BELEG-Handmade/public/assets/catalog/pexels-4041326.jpg",
+      "BELEG-Handmade/public/assets/catalog/photo-box.jpg",
+      "BELEG-Handmade/public/assets/catalog/romantic-set.jpg",
+      "BELEG-Handmade/public/assets/catalog/wine-set.jpg",
+      "BELEG-Handmade/public/catalog.json",
+      "BELEG-Handmade/public/product.html"
+    ],
+    "feature_evidence": {
+      "chocolate": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__netlify__database__migrations__20261102000000_photo_examples.sql",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__categories.json"
+      ],
+      "bundles": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__netlify__database__migrations__20261102000000_photo_examples.sql",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql"
+      ],
+      "admin": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__admin-login.html",
+        "BELEG-Handmade__public__admin.js",
+        "BELEG-Handmade__OWNER-SETUP.md"
+      ],
+      "audio": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__public__categories.json",
+        "BELEG-Handmade__public__index.html"
+      ],
+      "print": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__public__shop.js"
+      ],
+      "PWA": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__public__gifts.html",
+        "BELEG-Handmade__public__shop.js"
+      ],
+      "feedback": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__public__gifts.html",
+        "BELEG-Handmade__public__shop.js"
+      ],
+      "photo-gifts": [
+        "BELEG-Handmade__netlify__database__migrations__20261102000000_photo_examples.sql",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__public__categories.json",
+        "BELEG-Handmade__public__index.html"
+      ]
+    }
+  },
+  {
+    "sha256": "65e1d6ad7770bc9c4c51e20f108a136287df6b273631b4e6d7b6b2ebd8d4a90e",
+    "archives": [
+      "beleg_handmade_update.zip"
+    ],
+    "files": 3,
+    "relevant": [
+      "beleg_shop/README.txt"
+    ],
+    "feature_evidence": {
+      "bundles": [
+        "beleg_shop__index.html"
+      ],
+      "admin": [
+        "beleg_shop__README.txt"
+      ]
+    }
+  },
+  {
+    "sha256": "7475166d7d64a4492bbef3bf3fee8acf89ee89ff422446611419f5c7f898315e",
+    "archives": [
+      "BELEG-Handmade-local-preview.zip",
+      "BELEG-Handmade-local-preview (1).zip"
+    ],
+    "files": 73,
+    "relevant": [
+      "beleg_work/netlify/database/migrations/20261101180000_seed_catalog.sql",
+      "beleg_work/README-START-HERE-MN.md"
+    ],
+    "feature_evidence": {
+      "bundles": [
+        "beleg_work__admin.html",
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__public__shop.js"
+      ],
+      "admin": [
+        "beleg_work__admin.html",
+        "beleg_work__public__index.html",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html"
+      ],
+      "photo-gifts": [
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__index.html"
+      ],
+      "audio": [
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html"
+      ],
+      "PWA": [
+        "beleg_work__public__index.html",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html",
+        "beleg_work__shop.js"
+      ],
+      "feedback": [
+        "beleg_work__public__index.html",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html",
+        "beleg_work__shop.js"
+      ],
+      "print": [
+        "beleg_work__public__shop.js",
+        "beleg_work__shop.js"
+      ]
+    }
+  },
+  {
+    "sha256": "dc9d223a84d55ce64d2ab619f245be4f254ae4f5763d0608e08cd4e3606300f4",
+    "archives": [
+      "BELEG_Handmade_Orders_Admin_TEST.zip"
+    ],
+    "files": 13,
+    "relevant": [
+      "README.txt"
+    ],
+    "feature_evidence": {
+      "admin": [
+        "admin.html",
+        "netlify__functions__admin-login.js",
+        "sw.js",
+        "README.txt",
+        "netlify__functions__admin-orders.js"
+      ],
+      "PWA": [
+        "sw.js",
+        "index.html"
+      ]
+    }
+  },
+  {
+    "sha256": "70274759d460c3a0b0d5db101588e77d50dc33fb544d5a4d3eb690f38615d165",
+    "archives": [
+      "beleg-handmade-integrated-v6-final.zip",
+      "beleg-handmade-integrated-v6-final(1).zip"
+    ],
+    "files": 16,
+    "relevant": [
+      "README.md"
+    ],
+    "feature_evidence": {
+      "chocolate": [
+        "admin.html",
+        "shop.js",
+        "index.html"
+      ],
+      "bundles": [
+        "admin.html",
+        "README.md",
+        "netlify__functions__create-order.js",
+        "database-schema-v6.sql",
+        "shop.js"
+      ],
+      "admin": [
+        "admin.html",
+        "README.md",
+        "database-schema-v6.sql",
+        "index.html"
+      ],
+      "audio": [
+        "README.md",
+        "netlify__functions__create-order.js",
+        "tests__automated-tests.js",
+        "netlify__functions__get-audio-url.js",
+        "netlify__functions__register-upload-token.js"
+      ]
+    }
+  },
+  {
+    "sha256": "2963ce8f9ab199e85ec7b2f93b7e853084d2c41178056f9b19159b11b2cb0296",
+    "archives": [
+      "beleg-handmade-demo.zip"
+    ],
+    "files": 1,
+    "relevant": [],
+    "feature_evidence": {
+      "chocolate": [
+        "index.html"
+      ],
+      "bundles": [
+        "index.html"
+      ],
+      "admin": [
+        "index.html"
+      ]
+    }
+  },
+  {
+    "sha256": "5577c9711e41822e6cb82c06d8a3b944fc37ad1ac40e825627eeb73ee04692ae",
+    "archives": [
+      "BELEG-Handmade-repaired-review(1).zip",
+      "BELEG-Handmade-repaired-review(1)(1)(1).zip",
+      "BELEG-Handmade-repaired-review(1)(1).zip",
+      "BELEG-Handmade-repaired-review.zip"
+    ],
+    "files": 202,
+    "relevant": [
+      "BELEG-Handmade/README.md"
+    ],
+    "feature_evidence": {
+      "print": [
+        "BELEG-Handmade__package.json",
+        "BELEG-Handmade__database__setup.sql",
+        "BELEG-Handmade__docs__archive-audit.json",
+        "BELEG-Handmade__docs__ADMIN_GUIDE_MN.md"
+      ],
+      "admin": [
+        "BELEG-Handmade__docs__access-test-results.json",
+        "BELEG-Handmade__docs__http-test-results.json",
+        "BELEG-Handmade__database__setup.sql",
+        "BELEG-Handmade__tests__final-repair.sql",
+        "BELEG-Handmade__docs__access-review.md"
+      ],
+      "audio": [
+        "BELEG-Handmade__docs__http-test-results.json",
+        "BELEG-Handmade__database__setup.sql",
+        "BELEG-Handmade__docs__FACEBOOK_CONTENT_MN.md",
+        "BELEG-Handmade__database__auth-access.sql",
+        "BELEG-Handmade__docs__AI_AND_QPAY_RESEARCH.md"
+      ],
+      "bundles": [
+        "BELEG-Handmade__tsconfig.json",
+        "BELEG-Handmade__database__setup.sql",
+        "BELEG-Handmade__docs__FACEBOOK_CONTENT_MN.md",
+        "BELEG-Handmade__docs__FINAL-REPAIR-REPORT-MN.md",
+        "BELEG-Handmade__docs__AI_AND_QPAY_RESEARCH.md"
+      ],
+      "chocolate": [
+        "BELEG-Handmade__docs__FINAL-REPAIR-REPORT-MN.md",
+        "BELEG-Handmade__docs__archive-audit.json"
+      ],
+      "photo-gifts": [
+        "BELEG-Handmade__docs__FINAL-REPAIR-REPORT-MN.md",
+        "BELEG-Handmade__docs__ADMIN_GUIDE_MN.md"
+      ]
+    }
+  },
+  {
+    "sha256": "ad0bf27273cae4c47693500a7d431beeff2431aefdd923e2586dcdd6a63a3668",
+    "archives": [
+      "beleg-handmade-integrated-v6-production (1).zip",
+      "beleg-handmade-integrated-v6-production (1)(2).zip",
+      "beleg-handmade-integrated-v6-production (1)(1).zip",
+      "beleg-handmade-integrated-v6-production.zip",
+      "beleg-handmade-integrated-v6-production (1)(3).zip"
+    ],
+    "files": 32,
+    "relevant": [
+      "README.md"
+    ],
+    "feature_evidence": {
+      "chocolate": [
+        "admin.html",
+        "dist__enhancements.js",
+        "dist__index.html",
+        "dist__admin.html",
+        "database-schema-v6.sql"
+      ],
+      "bundles": [
+        "admin.html",
+        "dist__enhancements.js",
+        "dist__index.html",
+        "dist__admin.html",
+        "tests__unit.test.js"
+      ],
+      "admin": [
+        "admin.html",
+        "README.md",
+        "netlify__functions__create-order.js",
+        "scripts__build.js",
+        "tests__automated-tests.js"
+      ],
+      "audio": [
+        "README.md",
+        "dist__player.html",
+        "dist__enhancements.js",
+        "dist__index.html",
+        "netlify__functions__lib__common.js"
+      ],
+      "photo-gifts": [
+        "dist__enhancements.js",
+        "dist__index.html",
+        "database-schema-v6.sql",
+        "TEST-REPORT.md",
+        "enhancements.js"
+      ]
+    }
+  },
+  {
+    "sha256": "c10699eae439f816ba50234daf875738cd50ad46cb956da624fabb6cb8c918d1",
+    "archives": [
+      "beleg-handmade-integrated-v3.zip"
+    ],
+    "files": 8,
+    "relevant": [
+      "README.md"
+    ],
+    "feature_evidence": {
+      "chocolate": [
+        "admin.html",
+        "database-schema.sql",
+        "shop.js",
+        "index.html"
+      ],
+      "bundles": [
+        "admin.html",
+        "README.md",
+        "database-schema.sql",
+        "shop.js",
+        "index.html"
+      ],
+      "admin": [
+        "admin.html",
+        "README.md",
+        "database-schema.sql",
+        "shop.js",
+        "index.html"
+      ],
+      "audio": [
+        "player.html",
+        "database-schema.sql",
+        "index.html"
+      ],
+      "print": [
+        "database-schema.sql"
+      ]
+    }
+  },
+  {
+    "sha256": "9a3fd05ec728a706d71643b306e0b479eb3d2fa611773ccbd3f375b788c387ad",
+    "archives": [
+      "BELEG-Handmade-gifts-chocolate.zip"
+    ],
+    "files": 136,
+    "relevant": [
+      "BELEG-Handmade/BUNDLES-CHOCOLATE.md",
+      "BELEG-Handmade/CANDLE-CATALOG-NOTES-MN.txt",
+      "BELEG-Handmade/README-START-HERE-MN.md",
+      "BELEG-Handmade/backup/BELEG-before-bundles.zip",
+      "BELEG-Handmade/catalog.json",
+      "BELEG-Handmade/netlify/database/migrations/20261101180000_seed_catalog.sql",
+      "BELEG-Handmade/netlify/database/migrations/20261101200000_catalog_examples.sql",
+      "BELEG-Handmade/netlify/database/migrations/20261101230000_chocolate_bundles.sql",
+      "BELEG-Handmade/public/catalog.json"
+    ],
+    "feature_evidence": {
+      "chocolate": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__categories.json",
+        "BELEG-Handmade__public__index.html"
+      ],
+      "bundles": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__CANDLE-CATALOG-NOTES-MN.txt"
+      ],
+      "admin": [
+        "BELEG-Handmade__netlify__database__migrations__20261101230000_chocolate_bundles.sql",
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__admin-login.html",
+        "BELEG-Handmade__public__admin.js",
+        "BELEG-Handmade__OWNER-SETUP.md"
+      ],
+      "audio": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__public__categories.json",
+        "BELEG-Handmade__public__index.html"
+      ],
+      "print": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__public__shop.js"
+      ],
+      "PWA": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__public__gifts.html",
+        "BELEG-Handmade__public__shop.js"
+      ],
+      "feedback": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__public__gifts.html",
+        "BELEG-Handmade__public__shop.js"
+      ],
+      "photo-gifts": [
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__public__categories.json",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__public__gifts.html"
+      ]
+    }
+  },
+  {
+    "sha256": "84a51413eadac1ada605e9a69e97e9d28b9777ae2ca71804efcc3ce0d83e25ae",
+    "archives": [
+      "beleg-handmade-integrated-v4.zip"
+    ],
+    "files": 11,
+    "relevant": [
+      "README.md"
+    ],
+    "feature_evidence": {
+      "chocolate": [
+        "admin.html",
+        "README.md",
+        "database-schema-v4.sql",
+        "shop.js",
+        "index.html"
+      ],
+      "bundles": [
+        "admin.html",
+        "README.md",
+        "netlify__functions__create-order.js",
+        "database-schema-v4.sql",
+        "shop.js"
+      ],
+      "admin": [
+        "admin.html",
+        "README.md",
+        "netlify__functions__create-order.js",
+        "database-schema-v4.sql",
+        "shop.js"
+      ],
+      "audio": [
+        "README.md",
+        "netlify__functions__get-audio-url.js",
+        "player.html",
+        "database-schema-v4.sql",
+        "index.html"
+      ]
+    }
+  },
+  {
+    "sha256": "1e46fcafa64ebc93f4ede6aa86c72c9485c82d24dd9e7ee4ec9cebb81e7c61ea",
+    "archives": [
+      "BELEG-Handmade-floral-redesign.zip"
+    ],
+    "files": 113,
+    "relevant": [
+      "BELEG-Handmade/CANDLE-CATALOG-NOTES-MN.txt",
+      "BELEG-Handmade/README-START-HERE-MN.md",
+      "BELEG-Handmade/catalog.json",
+      "BELEG-Handmade/netlify/database/migrations/20261101180000_seed_catalog.sql",
+      "BELEG-Handmade/netlify/database/migrations/20261101200000_catalog_examples.sql",
+      "BELEG-Handmade/public/catalog.json"
+    ],
+    "feature_evidence": {
+      "bundles": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__CANDLE-CATALOG-NOTES-MN.txt",
+        "BELEG-Handmade__netlify__database__migrations__20261101210000_admin_details.sql"
+      ],
+      "admin": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__admin-login.html",
+        "BELEG-Handmade__public__admin.js",
+        "BELEG-Handmade__OWNER-SETUP.md",
+        "BELEG-Handmade__admin.js"
+      ],
+      "audio": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__public__categories.json",
+        "BELEG-Handmade__public__index.html"
+      ],
+      "print": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__public__shop.js"
+      ],
+      "PWA": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__public__shop.js"
+      ],
+      "feedback": [
+        "BELEG-Handmade__shop.js",
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__public__shop.js"
+      ],
+      "photo-gifts": [
+        "BELEG-Handmade__index.html",
+        "BELEG-Handmade__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "BELEG-Handmade__public__categories.json",
+        "BELEG-Handmade__public__index.html",
+        "BELEG-Handmade__categories.json"
+      ]
+    }
+  },
+  {
+    "sha256": "21ac3ab7105f184048e1254f25d6ac9d541ff1f69a877471a4033a9dab11d853",
+    "archives": [
+      "beleg-handmade-integrated-v2.zip"
+    ],
+    "files": 7,
+    "relevant": [
+      "README.md"
+    ],
+    "feature_evidence": {
+      "admin": [
+        "admin.html",
+        "README.md",
+        "database-schema.sql",
+        "index.html"
+      ],
+      "chocolate": [
+        "README.md",
+        "database-schema.sql",
+        "shop.js",
+        "index.html"
+      ],
+      "bundles": [
+        "README.md",
+        "database-schema.sql",
+        "shop.js",
+        "index.html"
+      ],
+      "audio": [
+        "README.md",
+        "database-schema.sql",
+        "index.html"
+      ],
+      "print": [
+        "database-schema.sql"
+      ]
+    }
+  },
+  {
+    "sha256": "af1fcc1f93c8241ac2925ff8520b42938a2a73e7ba3d80b83a70fe42d4e2c4b0",
+    "archives": [
+      "BELEG_Handmade_PWA.zip",
+      "BELEG_Handmade_PWA (4).zip"
+    ],
+    "files": 7,
+    "relevant": [
+      "README.txt"
+    ],
+    "feature_evidence": {
+      "PWA": [
+        "sw.js",
+        "README.txt",
+        "index.html"
+      ]
+    }
+  },
+  {
+    "sha256": "86c6aa132a4596c7af20ab64bf960220f73e3a6aa2db173db342bff1d2ae5d40",
+    "archives": [
+      "BELEG_Handmade_Orders_Admin_TEST_READY(1).zip"
+    ],
+    "files": 17,
+    "relevant": [
+      "README.txt"
+    ],
+    "feature_evidence": {
+      "bundles": [
+        "public__index.html",
+        "README.txt"
+      ],
+      "admin": [
+        "public__index.html",
+        "netlify__functions__admin-login.js",
+        "public__sw.js",
+        "public__admin.html",
+        "README.txt"
+      ],
+      "PWA": [
+        "public__index.html",
+        "public__sw.js"
+      ]
+    }
+  },
+  {
+    "sha256": "eed12e3af69b54477298b1cd8b02ac925f5bb253d8c26cd7132902d5e9cb9a96",
+    "archives": [
+      "BELEG-Handmade-zasvarlasan-source.zip"
+    ],
+    "files": 69,
+    "relevant": [
+      "beleg_work/netlify/database/migrations/20261101180000_seed_catalog.sql",
+      "beleg_work/README-START-HERE-MN.md"
+    ],
+    "feature_evidence": {
+      "bundles": [
+        "beleg_work__admin.html",
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__public__shop.js"
+      ],
+      "admin": [
+        "beleg_work__admin.html",
+        "beleg_work__public__index.html",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html"
+      ],
+      "photo-gifts": [
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__index.html"
+      ],
+      "audio": [
+        "beleg_work__public__index.html",
+        "beleg_work__netlify__database__migrations__20261101180000_seed_catalog.sql",
+        "beleg_work__OWNER-SETUP.md",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html"
+      ],
+      "PWA": [
+        "beleg_work__public__index.html",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html",
+        "beleg_work__shop.js"
+      ],
+      "feedback": [
+        "beleg_work__public__index.html",
+        "beleg_work__public__shop.js",
+        "beleg_work__index.html",
+        "beleg_work__shop.js"
+      ],
+      "print": [
+        "beleg_work__public__shop.js",
+        "beleg_work__shop.js"
+      ]
+    }
+  },
+  {
+    "sha256": "f6471817c61795bf62013c59daafc7a6ebb55e0ae33887f55eec1e6a0fea790c",
+    "archives": [
+      "BELEG_Work_materials.zip"
+    ],
+    "files": 7,
+    "relevant": [],
+    "feature_evidence": {
+      "bundles": [
+        "WORK_BRIEF_BELEG.txt"
+      ],
+      "admin": [
+        "WORK_BRIEF_BELEG.txt"
+      ]
+    }
+  },
+  {
+    "sha256": "e1e74382bff60b680bb7b26e4cb37a1ebaf84578924e4e5f12fb92871f545a90",
+    "archives": [
+      "beleg-handmade-integrated-v6.zip"
+    ],
+    "files": 14,
+    "relevant": [
+      "README.md"
+    ],
+    "feature_evidence": {
+      "chocolate": [
+        "admin.html",
+        "shop.js",
+        "index.html"
+      ],
+      "bundles": [
+        "admin.html",
+        "README.md",
+        "netlify__functions__create-order.js",
+        "database-schema-v6.sql",
+        "shop.js"
+      ],
+      "admin": [
+        "admin.html",
+        "README.md",
+        "database-schema-v6.sql",
+        "index.html"
+      ],
+      "audio": [
+        "README.md",
+        "netlify__functions__create-order.js",
+        "netlify__functions__get-audio-url.js",
+        "netlify__functions__create-qr-token.js",
+        "database-schema-v6.sql"
+      ]
+    }
+  },
+  {
+    "sha256": "928aa6b2632d56318c24278cc44060b4cc1e57ed63ae5c3c1d60bb6951b9a805",
+    "archives": [
+      "BELEG_Handmade_Updated.zip"
+    ],
+    "files": 21,
+    "relevant": [
+      "README.txt"
+    ],
+    "feature_evidence": {
+      "bundles": [
+        "public__index.html",
+        "README.txt"
+      ],
+      "admin": [
+        "public__index.html",
+        "netlify__functions__admin-login.js",
+        "public__sw.js",
+        "public__admin.html",
+        "README.txt"
+      ],
+      "PWA": [
+        "public__index.html",
+        "public__sw.js"
+      ]
+    }
+  },
+  {
+    "sha256": "f545027ee10a7ec564961b72915f78270e0e87ab2c5bca5de8316e17d1d6b62c",
+    "archives": [
+      "beleg-handmade-integrated.zip"
+    ],
+    "files": 6,
+    "relevant": [
+      "README.md"
+    ],
+    "feature_evidence": {
+      "admin": [
+        "admin.html",
+        "README.md",
+        "index.html"
+      ],
+      "chocolate": [
+        "index.html"
+      ],
+      "bundles": [
+        "index.html"
+      ]
+    }
+  },
+  {
+    "sha256": "fd5aef602b899c43490683e574af2ffd642bf04351c9cd2ec0133bf62a08103e",
+    "archives": [
+      "BELEG-Handmade-FINAL-ONE-PACKAGE.zip"
+    ],
+    "files": 191,
+    "relevant": [
+      "README.md",
+      "reference-assets/catalog.json",
+      "reference-assets/BUNDLES-CHOCOLATE.md",
+      "reference-assets/assets/catalog/choc-box.jpg",
+      "reference-assets/assets/catalog/wine-set.jpg",
+      "reference-assets/assets/catalog/choc-bouquet.jpg",
+      "reference-assets/assets/catalog/choc-name.jpg",
+      "reference-assets/assets/catalog/romantic-set.jpg",
+      "reference-assets/assets/catalog/envelope-set.jpg",
+      "reference-assets/assets/catalog/letter-box.jpg",
+      "reference-assets/assets/catalog/choc-flower.jpg",
+      "reference-assets/assets/catalog/pexels-4041326.jpg",
+      "reference-assets/assets/catalog/photo-box.jpg",
+      "reference-assets/assets/catalog/choc-custom.jpg",
+      "reference-assets/assets/catalog/choc-heart.jpg",
+      "reference-assets/assets/catalog/couples-set.jpg"
+    ],
+    "feature_evidence": {
+      "admin": [
+        "docs__access-review.md",
+        "docs__archive-audit.json",
+        "START-HERE-MN.md",
+        "reference-assets__BUNDLES-CHOCOLATE.md",
+        "database__final-repair.sql"
+      ],
+      "chocolate": [
+        "docs__archive-audit.json",
+        "reference-assets__IMAGE-PROVENANCE.json",
+        "reference-assets__BUNDLES-CHOCOLATE.md",
+        "reference-assets__categories.json",
+        "docs__FINAL-REPAIR-REPORT-MN.md"
+      ],
+      "print": [
+        "docs__archive-audit.json",
+        "package.json",
+        "database__setup.sql",
+        "docs__ADMIN_GUIDE_MN.md"
+      ],
+      "photo-gifts": [
+        "reference-assets__IMAGE-PROVENANCE.json",
+        "reference-assets__categories.json",
+        "docs__ADMIN_GUIDE_MN.md",
+        "docs__FINAL-REPAIR-REPORT-MN.md",
+        "reference-assets__catalog.json"
+      ],
+      "bundles": [
+        "reference-assets__BUNDLES-CHOCOLATE.md",
+        "docs__FACEBOOK_CONTENT_MN.md",
+        "reference-assets__categories.json",
+        "database__setup.sql",
+        "tsconfig.json"
+      ],
+      "audio": [
+        "reference-assets__BUNDLES-CHOCOLATE.md",
+        "database__final-repair.sql",
+        "docs__http-test-results.json",
+        "docs__FACEBOOK_CONTENT_MN.md",
+        "reference-assets__categories.json"
+      ]
+    }
+  }
+]

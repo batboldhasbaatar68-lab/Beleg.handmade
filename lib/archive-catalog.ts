@@ -613,4 +613,4 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
   }
 ];
-export function mergeArchiveCatalog(products:Product[], hidden:string[]=[]):Product[]{return [...products,...archiveCatalog.filter(p=>!products.some(v=>v.id===p.id)&&!hidden.includes(p.id))];}
+export function mergeArchiveCatalog(products:Product[], hidden:string[]=[]):Product[]{return [...products.filter(p=>!p.deleted),...archiveCatalog.filter(p=>!products.some(v=>v.id===p.id)&&!hidden.includes(p.id))];}

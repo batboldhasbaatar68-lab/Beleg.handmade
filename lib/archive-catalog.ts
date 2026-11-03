@@ -81,7 +81,7 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "id": "gift-men",
     "name": "Эрэгтэй бэлгийн багц",
     "category": "gifts",
-    "price": 0,
+    "price": 29900,
     "stock": 0,
     "description": "Даруухан өнгийн лаа, хувийн мэндчилгээтэй багцын санаа. Бүрэлдэхүүн, үнэ хараахан батлагдаагүй.",
     "image_note": "Жишээ загвар · Гаднын жишээ зураг, бодит барааны зураг биш. Үнийг баталгаажуулсны дараа худалдаанд гаргана.",
@@ -95,7 +95,7 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "gift-bath",
@@ -177,7 +177,7 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "id": "gift-photo",
     "name": "Зурагтай бэлэг",
     "category": "gifts",
-    "price": 0,
+    "price": 29000,
     "stock": 0,
     "image_note": "Жишээ загвар · AI бүтээгдэхүүний жишээ зураг. Бодит бараа, бэлэн байдал баталгаажаагүй.",
     "description": "Нандин зургаа мэндчилгээтэй хослуулах санаа. Эх зургийг захиалга баталгаажсаны дараа хувийн сувгаар хуваалцана.",
@@ -190,13 +190,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "chocolate-flower",
     "name": "Цэцгэн хэлбэртэй шоколад",
     "category": "chocolate",
-    "price": 0,
+    "price": 12000,
     "stock": 0,
     "gift_type": "",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -216,13 +216,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "chocolate-heart",
     "name": "Зүрхэн хэлбэртэй шоколад",
     "category": "chocolate",
-    "price": 0,
+    "price": 15000,
     "stock": 0,
     "gift_type": "",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -242,13 +242,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "chocolate-name",
     "name": "Нэр, бичигтэй шоколад",
     "category": "chocolate",
-    "price": 0,
+    "price": 19000,
     "stock": 0,
     "gift_type": "",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -268,13 +268,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "chocolate-bouquet",
     "name": "Шоколадан цэцгийн баглаа",
     "category": "chocolate",
-    "price": 0,
+    "price": 49000,
     "stock": 0,
     "gift_type": "",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -294,13 +294,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "chocolate-box",
     "name": "Жижиг шоколадны бэлгийн хайрцаг",
     "category": "chocolate",
-    "price": 0,
+    "price": 29000,
     "stock": 0,
     "gift_type": "",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -320,13 +320,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "chocolate-custom",
     "name": "Захиалгат шоколад",
     "category": "chocolate",
-    "price": 0,
+    "price": 39000,
     "stock": 0,
     "gift_type": "",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -346,13 +346,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "gift-couples",
     "name": "Хосын бэлгийн багц",
     "category": "gifts",
-    "price": 0,
+    "price": 59000,
     "stock": 0,
     "gift_type": "couples",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -368,13 +368,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "gift-birthday",
     "name": "Төрсөн өдрийн багц",
     "category": "gifts",
-    "price": 0,
+    "price": 49000,
     "stock": 0,
     "gift_type": "birthday",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -390,13 +390,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "gift-love",
     "name": "Хайртай хүнд зориулсан багц",
     "category": "gifts",
-    "price": 0,
+    "price": 79000,
     "stock": 0,
     "gift_type": "love",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -412,13 +412,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "bath-bomb-single",
     "name": "Ванны бөмбөлөг — нэг ширхэг",
     "category": "gifts",
-    "price": 0,
+    "price": 6000,
     "stock": 0,
     "gift_type": "",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -434,13 +434,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "letter-single",
     "name": "Хувийн мэндчилгээтэй захидал",
     "category": "letters",
-    "price": 0,
+    "price": 5000,
     "stock": 0,
     "gift_type": "",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -456,13 +456,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "gift-box-addon",
     "name": "Бэлгийн хайрцаг — нэмэлт",
     "category": "gifts",
-    "price": 0,
+    "price": 6000,
     "stock": 0,
     "gift_type": "",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -478,13 +478,13 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "gift-decoration-addon",
     "name": "Тууз, чимэглэл — нэмэлт",
     "category": "gifts",
-    "price": 0,
+    "price": 3000,
     "stock": 0,
     "gift_type": "",
     "size": "Бодит хэмжээг баталгаажуулна",
@@ -500,7 +500,7 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "love-letter-box",
@@ -571,7 +571,7 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
   {
     "id": "gift-wine-example",
     "name": "Дарс, шоколадтай бэлгийн багц",
-    "price": 0,
+    "price": 89000,
     "category": "gifts",
     "stock": 0,
     "image_note": "Жишээ загвар · AI бүтээгдэхүүний жишээ зураг. Бодит бараа биш; захиалга авахгүй.",
@@ -588,12 +588,12 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   },
   {
     "id": "gift-bag-candle-example",
     "name": "Цүнх, лаатай бэлгийн багц",
-    "price": 0,
+    "price": 59000,
     "category": "gifts",
     "stock": 0,
     "image_note": "Жишээ загвар · AI бүтээгдэхүүний жишээ зураг. Бодит бараа биш; захиалга авахгүй.",
@@ -610,7 +610,7 @@ export const archiveCatalog: (Product & {archive_source:string})[] = [
     "images": [],
     "videos": [],
     "deleted": false,
-    "archive_source": "BELEG-Handmade-FINAL-ONE-PACKAGE.zip · reference-assets/catalog.json"
+    "archive_source": "БЭЛЭГ Handmade · 2026-11-03 эхний үнэ; админаас өөрчилнө"
   }
 ];
 export function mergeArchiveCatalog(products:Product[], hidden:string[]=[]):Product[]{return [...products.filter(p=>!p.deleted),...archiveCatalog.filter(p=>!products.some(v=>v.id===p.id)&&!hidden.includes(p.id))];}

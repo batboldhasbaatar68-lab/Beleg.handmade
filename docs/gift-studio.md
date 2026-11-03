@@ -15,3 +15,7 @@ Build and TypeScript passed. Live interaction checks are performed after deploym
 ## Installable web app
 
 PWA manifest with branded 192/512 PNG icons, a maskable icon, standalone display and homepage/AI shortcuts. Install UI handles Android beforeinstallprompt and provides iOS Safari Add to Home Screen instructions. Service worker caches only public static resources and a generic offline page, never API requests, admin pages, private /g/ links, order HTML or audio uploads. Dynamic navigation remains online-first. This is a web app, not an App Store or Play Store listing. Device installation must be performed on the user's device.
+
+## Owner-selected physical fulfillment
+
+The owner selected: shopper chooses greeting, colors and card shape; places an order; owner checks bank payment and audio approval, prints the chosen private QR card and delivers it. Customer order views no longer offer private PNG/PDF export. Owner export requires payment_status=paid plus audio approval. The existing public gift read guard has one additional payment requirement; no role or authentication checks changed. The public card lab remains a visual-only preview. Manifest and service-worker response headers are explicitly configured in netlify.toml.

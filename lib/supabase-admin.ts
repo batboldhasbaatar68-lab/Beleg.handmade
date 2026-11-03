@@ -1,6 +1,6 @@
 const SUPABASE_ORIGIN='https://iqwklalhyayetrlujghi.supabase.co';
 const KEY='sb_publishable_0cAStscHQGt4ZKVGJ2uJwg_3_-Uqj_M';
-export const ADMIN_UID='4a03f88c-8d48-4f0f-b878-2c47d3ad94b8';
+export const ADMIN_UID='b7d955ba-89c7-4ce9-9114-bfa152d12c7f';
 const memo=new WeakMap<Request,Promise<boolean>>();
 export function cookie(req:Request,name:string){return req.headers.get('cookie')?.split(';').map(s=>s.trim()).find(s=>s.startsWith(name+'='))?.slice(name.length+1)||'';}
 export async function authFetch(path:string,body?:unknown,token?:string){return fetch(SUPABASE_ORIGIN+'/auth/v1/'+path,{method:body?'POST':'GET',headers:{apikey:KEY,...(token?{Authorization:'Bearer '+token}:{}),...(body?{'Content-Type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{}),signal:AbortSignal.timeout(15000)});}

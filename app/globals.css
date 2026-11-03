@@ -21,3 +21,91 @@ body{background-color:#fff8fa;background-image:linear-gradient(#fff9fb80,#fff9fb
 @media(max-width:720px){.kit-banner{margin:35px 21px 0;padding:24px 20px;display:block}.kit-banner h2{font-size:27px}.kit-banner p{font-size:10px;line-height:1.9}.kit-banner .button{margin-top:20px;width:100%}.kit-product{gap:10px}.kit-product>img{width:49px;height:53px}.kit-product b{font-size:10px}.kit-product small{font-size:9px}.kit-product .quantity button{width:25px;height:29px}.kit-product .quantity output{min-width:18px}}
 
 .media-gallery{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0}.media-gallery img,.media-gallery video,.admin-product-form video{max-width:160px;max-height:200px;object-fit:contain;border-radius:8px}.media-gallery>div{max-width:170px}.hero-brand-art{display:grid;place-items:center;height:100%;text-align:center;color:#872d50;font-family:var(--serif);font-size:30px}.hero-brand-art img{width:150px;height:150px}.size-letter{font:50px var(--serif);color:#9c4a68}.footer-main{flex-wrap:wrap;gap:18px}.admin-settings img{max-width:100%}
+
+/* Floral boutique refinement — original flower-pattern.svg is preserved. */
+:root{--wine:#842d50;--deep:#60203c;--rose:#ca9aaf;--blush:#f7e7ee;--paper:#fffaf8;--ink:#3e2c36;--muted:#75616c;--line:#eadce2;--gold:#9b794b}
+body{background-color:var(--paper);background-image:linear-gradient(#fffaf9aa,#fffaf9aa),url('/flower-pattern.svg')}
+.announcement{background:#702641;font-size:11px}
+.site-header{background:#fffaf9f5;box-shadow:0 3px 18px #4e243808}
+.hero{background:linear-gradient(115deg,#fff7f4 0%,#f7e9ef 62%,#f2dde7 100%);border-color:var(--line)}
+.hero-copy>p{color:#705563;font-size:15px;max-width:430px}
+.hero-product-visual{background-color:#f6e7ed;border-color:#e6cdd9;box-shadow:0 18px 55px #6e334510,inset 0 0 0 9px #fff8fb55}
+.hero-brand-art{font-size:32px;line-height:1.45}
+.hero-brand-art img{width:160px;height:160px}
+.floating-note{border-radius:14px;background:#fffdf9f5;border-color:#ead9df;box-shadow:0 12px 30px #60203c12}
+.button{min-height:48px;border-radius:12px;background:linear-gradient(150deg,#963b60,#702641);border-color:#7d2d4c;font-size:13px;font-weight:600;box-shadow:0 5px 14px #70264113;transition:transform .18s,box-shadow .18s,background .18s}
+.button:hover{background:#60203c;box-shadow:0 8px 20px #70264124;transform:translateY(-1px)}
+.button.secondary{background:#fffaf8;box-shadow:none;border-color:#d8b7c6}
+button:disabled{opacity:.52;transform:none!important;box-shadow:none}
+.button:disabled{background:#e7d8df;color:#654d5b;border-color:#e7d8df;opacity:1}
+.service-strip{padding-top:24px;padding-bottom:24px}
+.service-strip>span{font-size:12px}.service-strip small{font-size:11px}
+.package-card{border-radius:20px;background:#fffdfb;padding:32px 28px;box-shadow:0 9px 28px #6e334508}
+.package-card.featured{background:linear-gradient(145deg,#fff7f8,#f7e5ed);border-color:#c890a8;box-shadow:0 12px 35px #6e334514}
+.package-card>p{font-size:13px}.package-features{font-size:12px}.package-number{font-size:10px}
+.package-ribbon{border-radius:20px;font-size:9px;padding:6px 15px}
+.package-price small,.under-note{font-size:12px;color:var(--muted)}
+.voice-story{background-color:#f6e8ee;border-color:var(--line)}
+.steps p,.voice-quote p{font-size:13px}
+.size-card{background:#fffcfa;border-color:#e7d7df;box-shadow:0 6px 20px #6e334507;transition:transform .18s,border-color .18s}
+.size-card:hover{transform:translateY(-3px);border-color:#c894aa}
+.size-image{background-color:#f7eaf0}
+.size-card>span{font-size:12px}
+.kit-banner{background-color:#f7eaf0;border-color:#e7d7df;box-shadow:0 8px 30px #6e334506}
+.kit-banner p{font-size:13px}
+.section-heading>.filters{max-width:65%;gap:7px}
+.filters button{border:1px solid #e8d7e0;background:#fffdfa;border-radius:30px;padding:9px 15px;font-size:12px;min-height:40px;color:#705864;transition:background .18s,color .18s}
+.filters button:hover{background:#f8e8ef}
+.filters button.active{background:var(--wine);border-color:var(--wine);color:white}
+.catalog-grid{gap:24px}
+.product-card{display:flex;flex-direction:column;background:#fffdfb;border-color:#eadbe3;border-radius:18px;padding:10px 10px 18px;box-shadow:0 7px 22px #5d2d4008;transition:transform .18s,box-shadow .18s}
+.product-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px #5d2d4012}
+.product-photo{border-radius:12px;aspect-ratio:1/1.12}
+.product-photo>img{background:#f9edf1;transition:transform .3s}
+.product-photo:hover>img{transform:scale(1.025)}
+.photo-tag{font-size:9px;letter-spacing:.6px;border-radius:20px;background:#fffaf8ef;color:#795264;padding:5px 9px}
+.product-category{font-size:11px;color:#8d6075;letter-spacing:.4px}
+.product-card h3{font-size:19px;line-height:1.35;min-height:52px;margin-bottom:15px}
+.product-bottom{margin-top:auto;gap:8px}
+.product-bottom strong{font-size:17px;font-weight:650;color:var(--wine)}
+.product-card>small{font-size:11px;line-height:1.65;margin-top:9px}
+.add-button{min-width:42px;min-height:42px;border-radius:50%;background:#f5e3eb;color:var(--wine)}
+input,textarea,select{border-radius:10px;border-color:#dcc6d1}
+input:focus,textarea:focus,select:focus{border-color:#ad6d89}
+.shop-dialog{border-radius:22px;box-shadow:0 30px 90px #3d1d3940}
+.dialog-head{background:#fffaf8;border-bottom-color:var(--line)}
+.dialog-body{background:#fffdfb}
+.quantity button{min-width:36px;min-height:36px}
+footer{background:#63253f}
+@media(max-width:720px){
+ .announcement{font-size:9px;height:32px}
+ .hero-copy>p{font-size:14px;line-height:1.8}
+ .hero-product-visual{height:270px;border-radius:22px}
+ .hero-brand-art{font-size:27px}.hero-brand-art img{width:115px;height:115px}
+ .button{font-size:13px;min-height:46px;border-radius:11px}
+ .service-strip>span{font-size:10px}.service-strip small{font-size:10px}
+ .package-card{padding:27px 23px;border-radius:18px}
+ .package-card>p,.package-features{font-size:12px}
+ .package-price small,.under-note{font-size:11px}
+ .size-card>strong{font-size:12px;min-height:36px}.size-card>span{font-size:9px}
+ .size-card h3{font-size:16px}.size-card h3 small{font-size:10px}
+ .kit-banner p{font-size:12px}.kit-banner .button{font-size:13px}
+ .section-heading>.filters{max-width:100%;display:flex;flex-wrap:nowrap;overflow-x:auto;padding:3px 0 10px;gap:7px;scrollbar-width:thin}
+ .filters button{font-size:12px;min-height:42px;padding:9px 14px;flex:0 0 auto}
+ .catalog-grid{gap:15px 10px}
+ .product-card{border-radius:14px;padding:7px 7px 13px}
+ .product-card h3{font-size:16px;line-height:1.4;min-height:45px;margin-bottom:10px}
+ .product-bottom strong{font-size:14px}
+ .product-category{font-size:10px}.product-card>small{font-size:10px;line-height:1.6}
+ .photo-tag{font-size:8px;letter-spacing:0;padding:4px 7px}
+ .product-photo{aspect-ratio:1/1.17}
+ .add-button{min-width:38px;min-height:38px}
+ .shop-dialog{border-radius:18px}.dialog-body p{font-size:13px}
+ label{font-size:13px}.checkbox{font-size:12px}
+ .quantity button{min-width:36px;min-height:36px}
+ .dialog-footer .button,.detail-buy .button,.bank-panel .button{font-size:12px;min-height:46px}
+ .admin-tabs{overflow-x:auto;flex-wrap:nowrap}.admin-tabs button{flex-shrink:0;font-size:12px;min-height:44px}
+ .admin-product-list strong{font-size:12px}.admin-product-list small{font-size:10px}
+ .admin-product-form{padding:17px}.order-card{border-radius:14px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button,.product-card,.product-photo>img,.size-card{transition:none}.button:hover,.product-card:hover,.size-card:hover{transform:none}}
